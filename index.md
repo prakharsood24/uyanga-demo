@@ -32,7 +32,7 @@ title: Uyanga Turmunkh
         <p>
           Complete <a href="{{ site.baseurl }}/assets/Turmunkh_CV.pdf" target="_blank">Curriculum Vitae</a>
         </p>
-        <h3>Interests</h3>
+        <h3>Research Interests</h3>
         <p style="margin-top:10px;">- Judgment and decision-making</p>
         <p>- Risk and ambiguity</p>
         <p>- Environmental problems</p>
