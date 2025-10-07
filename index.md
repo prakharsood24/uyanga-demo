@@ -3,69 +3,100 @@ layout: default
 title: Uyanga Turmunkh
 ---
 
+<!-- === ABOUT SECTION === -->
 <section id="about" class="home-section">
-<div class="container">
-<div class="row">
-<div class="col-xs-12 col-md-4">
-  <div id="profile">
-    <div class="portrait" style="background-image: url('{{ site.baseurl }}/assets/turmunkh_bright.png');"></div>
-    <h2>Uyanga Turmunkh</h2>
-    <h3>Associate Professor</h3>
-    <h3><a href="SCHOLAR_LINK" target="_blank">Department of Economics and Quantitative Methods<br />
-IESEG School of Management, Lille, France</a></h3>
-    <ul class="network-icon">
-      <li><a href="[SCHOLAR_LINK](https://scholar.google.com/citations?user=3NgcfZIAAAAJ&hl=en)" target="_blank"><i class="ai ai-google-scholar big-icon"></i></a></li>
-      <li><a href="[LINKEDIN_LINK](https://www.linkedin.com/in/uyangaturmunkh/)" target="_blank"><i class="fa fa-linkedin big-icon"></i></a></li>
-    </ul>
+  <div class="container">
+    <div class="row">
+      <!-- LEFT COLUMN: photo & info -->
+      <div class="col-xs-12 col-md-4 text-center">
+        <img src="{{ site.baseurl }}/assets/turmunkh_bright.png" alt="Uyanga Turmunkh" class="img-circle img-responsive center-block" style="width:200px; height:200px; object-fit:cover; margin-bottom:20px;">
+        <h2 style="margin-top:0;">Uyanga Turmunkh</h2>
+        <h4>Associate Professor</h4>
+        <p style="color:#555; font-size:15px;">
+          <a href="https://www.ieseg.fr/en/faculty/research-department/economics/" target="_blank">Department of Economics and Quantitative Methods</a><br>
+          IESEG School of Management, Lille, France
+        </p>
+
+        <ul class="list-inline" style="margin-top:10px;">
+          <li><a href="SCHOLAR_LINK" target="_blank"><i class="ai ai-google-scholar big-icon"></i></a></li>
+          <li><a href="LINKEDIN_LINK" target="_blank"><i class="fa fa-linkedin big-icon"></i></a></li>
+        </ul>
+      </div>
+
+      <!-- RIGHT COLUMN: biography text -->
+      <div class="col-xs-12 col-md-8">
+        <h1>Short Biography</h1>
+        <p>
+          Judgment and decision-making, risk and ambiguity, environmental problems and human behaviour, cooperation, communication, and gender.
+        </p>
+        <p>
+          <a href="{{ site.baseurl }}/assets/cv.pdf" target="_blank">Download CV</a>
+        </p>
+
+        <h3>Research Interests</h3>
+        <ul>
+          <li>Behavioral and experimental economics</li>
+          <li>Decision theory</li>
+          <li>Market design</li>
+        </ul>
+      </div>
+    </div>
   </div>
-</div>
-
-<div class="col-xs-12 col-md-8">
-  ## Short Biography
-  Judgment and decision-making, risk and ambiguity, environmental problems and human behaviour,
-cooperation, communication, gender
-
-  [Download CV]({{ site.baseurl }}/assets/Turmunkh_CV.pdf)
-
-  ### Research Interests
-  - Behavioral and experimental economics
-  - Decision theory
-  - Market design
-</div>
-</div>
-</div>
 </section>
 
+<!-- === PUBLICATIONS === -->
 <section id="publications" class="home-section">
-<div class="container">
-  ## Publications
-  <ul>
-  {% for p in site.data.publications %}
-    <li><strong>{{ p.title }}</strong><br>{{ p.authors }} · {{ p.venue }}<br>
-    {% if p.pub_link %}<a href="{{ p.pub_link }}" target="_blank">Published version</a>{% endif %}
-    {% if p.data_link %} · <a href="{{ p.data_link }}" target="_blank">Data & files</a>{% endif %}
-    </li>
-  {% endfor %}
-  </ul>
-</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Publications</h1>
+        <ul style="list-style:none; padding-left:0;">
+          {% for p in site.data.publications %}
+          <li style="margin-bottom:15px;">
+            <strong>{{ p.title }}</strong><br>
+            <span style="color:#666;">{{ p.authors }} · {{ p.venue }}</span><br>
+            {% if p.pub_link %}<a href="{{ p.pub_link }}" target="_blank">Published version</a>{% endif %}
+            {% if p.data_link %} · <a href="{{ p.data_link }}" target="_blank">Data & files</a>{% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
 
+<!-- === ONGOING PROJECTS === -->
 <section id="projects" class="home-section">
-<div class="container">
-  ## Ongoing Projects
-  <ul>
-  {% for w in site.data.projects %}
-    <li><strong>{{ w.title }}</strong>{% if w.note %} · {{ w.note }}{% endif %}
-    {% if w.link %}<br><a href="{{ w.link }}" target="_blank">Link</a>{% endif %}</li>
-  {% endfor %}
-  </ul>
-</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Ongoing Projects</h1>
+        <ul style="list-style:none; padding-left:0;">
+          {% for w in site.data.projects %}
+          <li style="margin-bottom:15px;">
+            <strong>{{ w.title }}</strong>{% if w.note %} · <span style="color:#666;">{{ w.note }}</span>{% endif %}<br>
+            {% if w.link %}<a href="{{ w.link }}" target="_blank">Link</a>{% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
 
+<!-- === CONTACT === -->
 <section id="contact" class="home-section">
-<div class="container">
-  ## Contact
-  Email: [YOUR_EMAIL](mailto:YOUR_EMAIL)  
-  Google Scholar: [Scholar](SCHOLAR_LINK)
-</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-4">
+        <h1>Contact</h1>
+      </div>
+      <div class="col-xs-12 col-md-8">
+        <ul class="fa-ul" style="margin-left:0;">
+          <li><i class="fa-li fa fa-envelope"></i> <a href="mailto:YOUR_EMAIL">YOUR_EMAIL</a></li>
+          <li><i class="fa-li fa fa-map-marker"></i> IESEG School of Management, Lille, France</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
