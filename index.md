@@ -18,8 +18,8 @@ title: Uyanga Turmunkh
         </p>
 
         <ul class="list-inline" style="margin-top:10px;">
-          <li><a href="[SCHOLAR_LINK](https://scholar.google.com/citations?user=3NgcfZIAAAAJ&hl=en)" target="_blank"><i class="ai ai-google-scholar big-icon"></i></a></li>
-          <li><a href="[LINKEDIN_LINK](https://www.linkedin.com/in/uyangaturmunkh)" target="_blank"><i class="fa fa-linkedin big-icon"></i></a></li>
+          <li><a href="https://scholar.google.com/citations?user=3NgcfZIAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar big-icon"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/uyangaturmunkh" target="_blank"><i class="fa fa-linkedin big-icon"></i></a></li>
         </ul>
       </div>
 
