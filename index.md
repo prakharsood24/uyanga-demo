@@ -27,7 +27,7 @@ title: Uyanga Turmunkh
       <div class="col-xs-12 col-md-6 col-md-offset-1">
         <h1>Short Biography</h1>
         <p>
-          Judgment and decision-making, risk and ambiguity, environmental problems and human behaviour, cooperation, communication, and gender.
+         Bio Here
         </p>
         <p>
           <a href="{{ site.baseurl }}/assets/Turmunkh_CV.pdf" target="_blank">Download CV</a>
@@ -35,9 +35,12 @@ title: Uyanga Turmunkh
 
         <h3>Research Interests</h3>
         <ul>
-          <li>Behavioral and experimental economics</li>
-          <li>Decision theory</li>
-          <li>Market design</li>
+          <li>Judgment and decision-making</li>
+          <li>Risk and ambiguity</li>
+          <li>Environmental problems</li>
+          <li>Cooperation</li>
+          <li>Communication</li>
+          <li>Gender</li>
         </ul>
       </div>
     </div>
