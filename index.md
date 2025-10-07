@@ -42,14 +42,30 @@ title: Uyanga Turmunkh
           <li>Gender</li>
         </ul>
       <h3>Education</h3>
-      <ul>
-          <li>Judgment and decision-making</li>
-          <li>Risk and ambiguity</li>
-          <li>Environmental problems</li>
-          <li>Cooperation</li>
-          <li>Communication</li>
-          <li>Gender</li>
-        </ul>
+    <ul class="fa-ul" style="list-style: none; padding-left: 0; margin: 0;">
+  <li style="margin-bottom: 12px;">
+    <i class="fa-li fa fa-graduation-cap" style="color:#0070cc;"></i>
+    <div class="description">
+      <p class="course" style="margin:0;">Ph.D. Economics(2010 – 2016)</p>
+      <p class="institution" style="margin:0; color:#666;">Erasmus University Rotterdam, Rotterdam, Netherlands</p>
+    </div>
+  </li>
+  <li style="margin-bottom: 12px;">
+    <i class="fa-li fa fa-graduation-cap" style="color:#0070cc;"></i>
+    <div class="description">
+      <p class="course" style="margin:0;">Diploma Economics(2005-2010)</p>
+      <p class="institution" style="margin:0; color:#666;">University of Mannheim, Mannheim, Germany</p>
+    </div>
+  </li>
+  <li>
+    <i class="fa-li fa fa-graduation-cap" style="color:#0070cc;"></i>
+    <div class="description">
+      <p class="course" style="margin:0;">B.A. Economics (major), International Relations (minor)(2000-2004)</p>
+      <p class="institution" style="margin:0; color:#666;">Franklin and Marshall College, Lancaster, USA</p>
+    </div>
+  </li>
+</ul>
+
       </div>
     </div>
   </div>
