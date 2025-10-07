@@ -8,22 +8,24 @@ title: Uyanga Turmunkh
 <div class="row">
 <div class="col-xs-12 col-md-4">
   <div id="profile">
-    <div class="portrait" style="background-image: url('{{ site.baseurl }}/assets/headshot.png');"></div>
+    <div class="portrait" style="background-image: url('{{ site.baseurl }}/assets/turmunkh_bright.png');"></div>
     <h2>Uyanga Turmunkh</h2>
-    <h3>Professional Title</h3>
-    <h3><a href="SCHOLAR_LINK" target="_blank">Institution / Affiliation</a></h3>
+    <h3>Associate Professor</h3>
+    <h3><a href="SCHOLAR_LINK" target="_blank">Department of Economics and Quantitative Methods<br />
+IESEG School of Management, Lille, France</a></h3>
     <ul class="network-icon">
-      <li><a href="SCHOLAR_LINK" target="_blank"><i class="ai ai-google-scholar big-icon"></i></a></li>
-      <li><a href="LINKEDIN_LINK" target="_blank"><i class="fa fa-linkedin big-icon"></i></a></li>
+      <li><a href="[SCHOLAR_LINK](https://scholar.google.com/citations?user=3NgcfZIAAAAJ&hl=en)" target="_blank"><i class="ai ai-google-scholar big-icon"></i></a></li>
+      <li><a href="[LINKEDIN_LINK](https://www.linkedin.com/in/uyangaturmunkh/)" target="_blank"><i class="fa fa-linkedin big-icon"></i></a></li>
     </ul>
   </div>
 </div>
 
 <div class="col-xs-12 col-md-8">
   ## Short Biography
-  Short bio paragraph goes here. Replace with content from the CV.
+  Judgment and decision-making, risk and ambiguity, environmental problems and human behaviour,
+cooperation, communication, gender
 
-  [Download CV]({{ site.baseurl }}/assets/cv.pdf)
+  [Download CV]({{ site.baseurl }}/assets/Turmunkh_CV.pdf)
 
   ### Research Interests
   - Behavioral and experimental economics
