@@ -43,14 +43,14 @@ title: Uyanga Turmunkh
         </ul>
       <h3>Education</h3>
     <ul class="fa-ul" style="list-style: none; padding-left: 0; margin: 0;">
-  <li style="margin-bottom: 12px;">
+  <li>
     <i class="fa-li fa fa-graduation-cap" style="color:#0070cc;"></i>
     <div class="description">
       <p class="course" style="margin:0;">Ph.D. Economics(2010 – 2016)</p>
       <p class="institution" style="margin:0; color:#666;">Erasmus University Rotterdam, Rotterdam, Netherlands</p>
     </div>
   </li>
-  <li style="margin-bottom: 12px;">
+  <li>
     <i class="fa-li fa fa-graduation-cap" style="color:#0070cc;"></i>
     <div class="description">
       <p class="course" style="margin:0;">Diploma Economics(2005-2010)</p>
