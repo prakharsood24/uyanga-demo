@@ -5,42 +5,43 @@
   <title>{{ page.title | default: site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ site.description }}">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
   <link rel="icon" href="{{ site.baseurl }}/assets/headshot.png">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+  <style>
+    /* minimal webfont-free reset */
+    *,*::before,*::after{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+  </style>
 </head>
 <body>
-  <header class="site-header">
-    <div class="intro">
-      <img class="avatar" src="{{ site.baseurl }}/assets/turmunkh_bright.png" alt="Photo of Uyanga Turmunkh">
-      <div>
-        <h1>Uyanga Turmunkh</h1>
-        <p class="subtitle">Professional title • <a href="SCHOLAR_LINK" target="_blank" rel="noopener">Google Scholar</a></p>
-        <p>
-          <a href="#bio">BIO</a> ·
-          <a href="#publications">PUBLICATIONS</a> ·
-          <a href="#ongoing">ONGOING PROJECTS</a> ·
-          <a href="#contact">CONTACT</a>
-        </p>
+  <div class="page">
+    <aside class="sidebar">
+      <img class="avatar" src="{{ site.baseurl }}/assets/headshot.png" alt="Photo of Uyanga Turmunkh">
+      <h1 class="name">Uyanga Turmunkh</h1>
+      <p class="subtitle">Professional title<br><a href="SCHOLAR_LINK" target="_blank" rel="noopener">Google Scholar</a></p>
+
+      <nav class="nav">
+        <a href="#bio">Bio</a>
+        <a href="#publications">Publications</a>
+        <a href="#ongoing">Ongoing projects</a>
+        <a href="#contact">Contact</a>
+        <!-- Add later:
+        <a href="#teaching">Teaching</a>
+        -->
+      </nav>
+
+      <div class="links">
+        <!-- optional external links -->
+        <!-- <a href="#" target="_blank" rel="noopener">CV</a> -->
       </div>
-    </div>
-  </header>
+    </aside>
 
-  <main class="container">
-    {{ content }}
-  </main>
-
-  <footer class="site-footer">
-    <p>© {{ "now" | date: "%Y" }} {{ site.title }}</p>
-  </footer>
-
-  <script>
-    document.querySelectorAll('a[href^="#"]').forEach(a => {
-      a.addEventListener('click', e => {
-        const id = a.getAttribute('href');
-        const el = document.querySelector(id);
-        if (el) { e.preventDefault(); el.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
-      });
-    });
-  </script>
+    <main class="content">
+      {{ content }}
+      <footer class="site-footer">
+        © {{ "now" | date: "%Y" }} {{ site.title }}
+      </footer>
+    </main>
+  </div>
 </body>
 </html>
