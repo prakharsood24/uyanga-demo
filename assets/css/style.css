@@ -1,45 +1,84 @@
 body {
   padding-top: 70px;
-  font-family: "Roboto", serif;
+  font-family: "Roboto", sans-serif;
   color: #333;
+  line-height: 1.65;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  color: #222;
 }
 
-.navbar-brand { font-weight: 700; }
+h1 {
+  font-size: 28px;
+  margin-bottom: 18px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 25px;
+  margin-bottom: 8px;
+}
+
+p {
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+
+a {
+  color: #0070cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #000 !important;
+  font-size: 18px;
+}
 
 .home-section {
   padding: 60px 0;
   border-bottom: 1px solid #eee;
 }
 
-.portrait {
-  width: 200px;
-  height: 200px;
+.img-circle {
   border-radius: 50%;
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 20px;
-}
-
-.network-icon {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  gap: 10px;
 }
 
 .big-icon {
   font-size: 24px;
-  color: #333;
+  color: #0070cc;
+}
+
+.list-inline > li {
+  display: inline-block;
 }
 
 .site-footer {
-  padding: 20px 0;
-  color: #777;
+  padding: 25px 0;
   border-top: 1px solid #eee;
+  color: #777;
+  text-align: center;
+  font-size: 14px;
   margin-top: 60px;
+}
+
+@media (max-width: 768px) {
+  .home-section {
+    text-align: center;
+  }
+  .home-section img {
+    margin: 0 auto 20px auto;
+  }
 }
