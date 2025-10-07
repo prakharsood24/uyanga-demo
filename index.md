@@ -13,13 +13,13 @@ title: Uyanga Turmunkh
         <h2 style="margin-top:0;">Uyanga Turmunkh</h2>
         <h4>Associate Professor</h4>
         <p style="color:#555; font-size:15px;">
-          <a href="https://www.ieseg.fr/en/faculty/research-department/economics/" target="_blank">Department of Economics and Quantitative Methods</a><br>
+          <a href="[https://www.ieseg.fr/en/faculty/research-department/economics/](https://www.ieseg.fr/en/faculty-and-research/departments/economics-and-quantitative-methods/)" target="_blank">Department of Economics and Quantitative Methods</a><br>
           IESEG School of Management, Lille, France
         </p>
 
         <ul class="list-inline" style="margin-top:10px;">
-          <li><a href="SCHOLAR_LINK" target="_blank"><i class="ai ai-google-scholar big-icon"></i></a></li>
-          <li><a href="LINKEDIN_LINK" target="_blank"><i class="fa fa-linkedin big-icon"></i></a></li>
+          <li><a href="[SCHOLAR_LINK](https://scholar.google.com/citations?user=3NgcfZIAAAAJ&hl=en)" target="_blank"><i class="ai ai-google-scholar big-icon"></i></a></li>
+          <li><a href="[LINKEDIN_LINK](https://www.linkedin.com/in/uyangaturmunkh)" target="_blank"><i class="fa fa-linkedin big-icon"></i></a></li>
         </ul>
       </div>
 
@@ -30,7 +30,7 @@ title: Uyanga Turmunkh
           Judgment and decision-making, risk and ambiguity, environmental problems and human behaviour, cooperation, communication, and gender.
         </p>
         <p>
-          <a href="{{ site.baseurl }}/assets/cv.pdf" target="_blank">Download CV</a>
+          <a href="{{ site.baseurl }}/assets/Turmunkh_CV.pdf" target="_blank">Download CV</a>
         </p>
 
         <h3>Research Interests</h3>
