@@ -47,5 +47,25 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Scrollspy activation -->
+<script>
+  $('body').scrollspy({ target: '#navbar-main', offset: 80 });
+
+  // Smooth scroll for anchor links
+  $('a[href*="#"]').not('[href="#"]').click(function (e) {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html, body').animate({ scrollTop: target.offset().top - 70 }, 500);
+        return false;
+      }
+    }
+  });
+</script>
+
 </body>
 </html>
