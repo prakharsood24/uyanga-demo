@@ -8,7 +8,7 @@ title: Uyanga Turmunkh
   <div class="container">
     <div class="row">
       <!-- LEFT COLUMN: photo & info -->
-      <div class="col-xs-12 col-md-4 text-center">
+      <div class="col-xs-12 col-md-5 text-center">
         <img src="{{ site.baseurl }}/assets/turmunkh_bright.png" alt="Uyanga Turmunkh" class="img-circle img-responsive center-block" style="width:200px; height:200px; object-fit:cover; margin-bottom:20px;">
         <h2 style="margin-top:0;">Uyanga Turmunkh</h2>
         <h4>Associate Professor</h4>
@@ -24,7 +24,7 @@ title: Uyanga Turmunkh
       </div>
 
       <!-- RIGHT COLUMN: biography text -->
-      <div class="col-xs-12 col-md-8">
+      <div class="col-xs-12 col-md-6 col-md-offset-1">
         <h1>Short Biography</h1>
         <p>
           Judgment and decision-making, risk and ambiguity, environmental problems and human behaviour, cooperation, communication, and gender.
