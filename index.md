@@ -30,7 +30,7 @@ title: Uyanga Turmunkh
          Bio Here
         </p>
         <p>
-          <a href="{{ site.baseurl }}/assets/Turmunkh_CV.pdf" target="_blank">Download CV</a>
+          Complete <a href="{{ site.baseurl }}/assets/Turmunkh_CV.pdf" target="_blank">Curriculum Vitae</a>
         </p>
         <h3>Interests</h3>
         <p style="margin-top:10px;">- Judgment and decision-making</p>
