@@ -96,7 +96,7 @@ title: Uyanga Turmunkh
       </div>
       <div class="col-xs-12 col-md-8">
         <ul class="fa-ul" style="margin-left:0;">
-          <li><i class="fa-li fa fa-envelope"></i> <a href="mailto:YOUR_EMAIL">YOUR_EMAIL</a></li>
+          <li><i class="fa-li fa fa-envelope"></i> <a href="mailto:u.turmunkh@ieseg.fr">u.turmunkh@ieseg.fr</a></li>
           <li><i class="fa-li fa fa-map-marker"></i> IESEG School of Management, Lille, France</li>
         </ul>
       </div>
