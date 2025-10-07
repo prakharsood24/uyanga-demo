@@ -33,14 +33,20 @@ title: Uyanga Turmunkh
           <a href="{{ site.baseurl }}/assets/Turmunkh_CV.pdf" target="_blank">Download CV</a>
         </p>
         <h3>Interests</h3>
-        <ul>
+        <p>- Judgment and decision-making</p>
+        <p>- Risk and ambiguity</p>
+        <p>- Environmental problems</p>
+        <p>- Cooperation</p>
+        <p>- Communication</p>
+        <p>- Gender</p>
+        <!--<ul>
           <li>Judgment and decision-making</li>
           <li>Risk and ambiguity</li>
           <li>Environmental problems</li>
           <li>Cooperation</li>
           <li>Communication</li>
           <li>Gender</li>
-        </ul>
+        </ul>-->
       <h3>Education</h3>
     <ul class="fa-ul" style="list-style: none; padding-left: 0; margin: 0;">
   <li>
