@@ -75,7 +75,7 @@ title: Uyanga Turmunkh
       <div class="col-xs-12">
         <h1>Ongoing Projects</h1>
         <ul style="list-style:none; padding-left:0;">
-          {% for w in site.data.projects %}
+          {% for w in site.data.ongoing %}
           <li style="margin-bottom:15px;">
             <strong>{{ w.title }}</strong>{% if w.note %} · <span style="color:#666;">{{ w.note }}</span>{% endif %}<br>
             {% if w.link %}<a href="{{ w.link }}" target="_blank">Link</a>{% endif %}
