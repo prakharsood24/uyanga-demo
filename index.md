@@ -78,7 +78,7 @@ title: Uyanga Turmunkh
           {% for w in site.data.ongoing %}
           <li style="margin-bottom:15px;">
             <strong>{{ w.title }}</strong>{% if w.note %} · <span style="color:#666;">{{ w.note }}</span>{% endif %}<br>
-            {% if w.link %}<a href="{{ w.link }}" target="_blank">Link</a>{% endif %}
+            {% if w.link %}<a href="{{ w.link }}" target="_blank">Project URL</a>{% endif %}
           </li>
           {% endfor %}
         </ul>
