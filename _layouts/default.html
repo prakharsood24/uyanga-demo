@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+  <link rel="icon" href="{{ site.baseurl }}/assets/headshot.png">
+</head>
+<body>
+  <header class="site-header">
+    <div class="intro">
+      <img class="avatar" src="{{ site.baseurl }}/assets/headshot.png" alt="Photo of Uyanga Turmunkh">
+      <div>
+        <h1>Uyanga Turmunkh</h1>
+        <p class="subtitle">Professional title • <a href="SCHOLAR_LINK" target="_blank" rel="noopener">Google Scholar</a></p>
+        <p>
+          <a href="#bio">BIO</a> ·
+          <a href="#publications">PUBLICATIONS</a> ·
+          <a href="#ongoing">ONGOING PROJECTS</a> ·
+          <a href="#contact">CONTACT</a>
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <p>© {{ "now" | date: "%Y" }} {{ site.title }}</p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const id = a.getAttribute('href');
+        const el = document.querySelector(id);
+        if (el) { e.preventDefault(); el.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+      });
+    });
+  </script>
+</body>
+</html>
