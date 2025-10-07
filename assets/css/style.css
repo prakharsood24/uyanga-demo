@@ -81,3 +81,32 @@ a:hover {
     margin: 0 auto 20px auto;
   }
 }
+
+.fa-ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.fa-ul .fa-li {
+  position: relative;
+  left: -2em;
+  width: 2em;
+  color: #0070cc;
+}
+
+.fa-ul li {
+  margin-bottom: 12px;
+}
+
+.course {
+  margin: 0;
+  font-weight: 600;
+}
+
+.institution {
+  margin: 0;
+  color: #666;
+  font-size: 15px;
+}
+
