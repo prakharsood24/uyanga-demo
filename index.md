@@ -32,7 +32,6 @@ title: Uyanga Turmunkh
         <p>
           <a href="{{ site.baseurl }}/assets/Turmunkh_CV.pdf" target="_blank">Download CV</a>
         </p>
-    <div class="row>
     <div class="col-md-6">
         <h3>Interests</h3>
         <ul>
@@ -54,7 +53,6 @@ title: Uyanga Turmunkh
           <li>Communication</li>
           <li>Gender</li>
         </ul>
-      </div>
       </div>
       </div>
     </div>
