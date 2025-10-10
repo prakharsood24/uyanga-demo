@@ -131,3 +131,52 @@ a:hover {
   color: #666;
   font-size: 20px; /* was 15px */
 }
+
+/* Publications layout */
+.pub-list{list-style:none;margin:0;padding:0}
+.pub-item{padding:22px 0;border-bottom:1px solid #eee}
+
+.pub-title{
+  font-family:"Montserrat",sans-serif;
+  font-weight:700;
+  font-size:26px;      /* match screenshot scale */
+  line-height:1.25;
+  margin:0 0 6px;
+  color:#222;
+}
+
+.pub-venue{
+  color:#d3542f;       /* venue accent (tweak if needed) */
+  font-weight:700;
+  margin:0 0 8px;
+}
+
+.pub-authors{
+  color:#777;
+  margin:0 0 12px;
+}
+
+/* Link chips */
+.btn-linkchip{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  border:1px solid #8aa9ff;
+  padding:6px 10px;
+  border-radius:6px;
+  font-size:14px;
+  color:#3a6eea;
+  background:#fff;
+  text-decoration:none;
+  margin:0 8px 8px 0;
+}
+.btn-linkchip:hover{background:#f5f8ff;text-decoration:none}
+.btn-linkchip i{font-size:14px;line-height:1}
+
+/* Right-side thumbnail */
+.pub-thumb{
+  border:1px solid #ddd;
+  padding:6px;
+  background:#fff;
+  max-width:100%;
+}
