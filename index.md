@@ -36,37 +36,6 @@ PhD in Economics, specialising in Behavioral Economics. I study decision-making 
 ambiguity. I am particularly interested in applications in the areas of environmental economics,
 public economics, and learning and development. Complete <a href="{{ site.baseurl }}/assets/Turmunkh_CV.pdf" target="_blank">CV</a>.
         </p>
-        <h3>Research Interests</h3>
-        <p style="margin-top:10px;">- Judgment and decision-making</p>
-        <p>- Risk and ambiguity</p>
-        <p>- Environmental problems</p>
-        <p>- Cooperation</p>
-        <p>- Communication</p>
-        <p>- Gender</p>
-      <h3>Education</h3>
-    <ul class="fa-ul" style="list-style: none; padding-left: 0; margin: 0;">
-  <li>
-    <!--<i class="fa-li fa fa-graduation-cap" style="color:#0070cc;"></i>-->
-    <div class="description">
-      <p class="course" style="margin:0;">Ph.D. Economics(2010 – 2016)</p>
-      <p class="institution" style="margin:0; color:#666;">Erasmus University Rotterdam, Rotterdam, Netherlands</p>
-    </div>
-  </li>
-  <li>
-    <!--<i class="fa-li fa fa-graduation-cap" style="color:#0070cc;"></i>-->
-    <div class="description">
-      <p class="course" style="margin:0;">Diploma Economics(2005-2010)</p>
-      <p class="institution" style="margin:0; color:#666;">University of Mannheim, Mannheim, Germany</p>
-    </div>
-  </li>
-  <li>
-    <!--<i class="fa-li fa fa-graduation-cap" style="color:#0070cc;"></i>-->
-    <div class="description">
-      <p class="course" style="margin:0;">B.A. Economics (major), International Relations (minor)(2000-2004)</p>
-      <p class="institution" style="margin:0; color:#666;">Franklin and Marshall College, Lancaster, USA</p>
-    </div>
-  </li>
-</ul>
 
       </div>
     </div>
