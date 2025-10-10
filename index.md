@@ -25,12 +25,16 @@ title: Uyanga Turmunkh
 
       <!-- RIGHT COLUMN: biography text -->
       <div class="col-xs-12 col-md-6 col-md-offset-1">
-        <h1>Short Biography</h1>
-        <p>
-         Bio Here
-        </p>
-        <p>
-          Complete <a href="{{ site.baseurl }}/assets/Turmunkh_CV.pdf" target="_blank">Curriculum Vitae</a>
+        <h1>Biography</h1>
+        <p>I am Associate Professor at <a href="www.ieseg.fr" target="_blank">IESEG School of Management</a>, Department of
+<a href="https://www.ieseg.fr/en/faculty-and-research/
+departments/economics-and-quantitative-methods/" target="_blank">Economics and Quantitative Methods</a>. 
+I am faculty member at the <a href="https://lem.univ-lille.fr/" target="_blank">LEM</a> research laboratory (CNRS UMR 9221) and at the <a href="https://
+irisk.ieseg.fr/" target="_blank">iRISK</a> Research Center on Risk and Uncertainty.</p>
+<p>I graduated from <a href="https://www.eur.nl/en/ese" target="_blank">Erasmus University Rotterdam</a> in 2017 with a
+PhD in Economics, specialising in Behavioral Economics. I study decision-making under risk and
+ambiguity. I am particularly interested in applications in the areas of environmental economics,
+public economics, and learning and development. Complete <a href="{{ site.baseurl }}/assets/Turmunkh_CV.pdf" target="_blank">CV</a>.
         </p>
         <h3>Research Interests</h3>
         <p style="margin-top:10px;">- Judgment and decision-making</p>
