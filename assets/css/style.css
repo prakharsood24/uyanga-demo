@@ -180,3 +180,48 @@ a:hover {
   background:#fff;
   max-width:100%;
 }
+
+/* Ongoing projects — matches the screenshot vibe */
+.og-list { margin: 0; padding: 0; }
+.og-item {
+  padding: 22px 0 28px;
+  border-bottom: 1px solid #eee;
+}
+
+.og-meta {
+  color: #777;
+  font-size: 16px;   /* tune to your global scale */
+  margin-bottom: 6px;
+}
+
+.og-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 28px;   /* big title like screenshot */
+  line-height: 1.25;
+  color: #222;
+  margin: 0 0 10px;
+}
+
+.og-summary {
+  margin: 0 0 14px;
+  color: #444;
+}
+
+/* pill buttons (reuse from publications if present) */
+.btn-linkchip{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  border:1px solid #8aa9ff;
+  padding:6px 10px;
+  border-radius:6px;
+  font-size:14px;
+  color:#3a6eea;
+  background:#fff;
+  text-decoration:none;
+  margin:0 8px 8px 0;
+}
+.btn-linkchip:hover{ background:#f5f8ff; text-decoration:none; }
+.btn-linkchip i{ font-size:14px; line-height:1; }
+
