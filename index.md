@@ -12,7 +12,7 @@ title: Uyanga Turmunkh
         <img src="{{ site.baseurl }}/assets/turmunkh_bright.png" alt="Uyanga Turmunkh" class="img-circle img-responsive center-block" style="width:200px; height:200px; object-fit:cover; margin-bottom:20px;">
         <h2 style="margin-top:0;">Uyanga Turmunkh</h2>
         <h4>Associate Professor</h4>
-        <p style="color:#555;>
+        <p>
           <a href="[https://www.ieseg.fr/en/faculty/research-department/economics/](https://www.ieseg.fr/en/faculty-and-research/departments/economics-and-quantitative-methods/)" target="_blank">Department of Economics and Quantitative Methods</a><br>
           IESEG School of Management, Lille, France
         </p>
