@@ -254,3 +254,28 @@ a:hover {
 .navbar-nav>li>a {
   font-size:18px;
 }
+
+.profile-name{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 28px;    /* keep consistent with your headings */
+  margin: 8px 0 0;
+}
+
+.name-row{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;          /* space between name and icons */
+}
+
+.name-icons a{
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #0070cc;     /* same accent as links */
+  margin-left: 2px;
+  font-size: 22px;    /* icon size next to name */
+}
+
+.name-icons a:hover{ text-decoration: none; }
+
