@@ -9,16 +9,23 @@ title: Uyanga Turmunkh
     <div class="row">
       <!-- LEFT COLUMN: photo & info -->
       <div class="col-xs-12 col-md-5 text-center">
-        <img src="{{ site.baseurl }}/assets/turmunkh_bright.png" alt="Uyanga Turmunkh" class="img-circle img-responsive center-block">
+               <img src="{{ '/assets/turmunkh_bright.png' | relative_url }}"
+             alt="Uyanga Turmunkh"
+             class="portrait-img">
+
         <div class="name-row">
           <h1 class="profile-name">Uyanga Turmunkh</h1>
-        <p>
-  <span class="name-icons">
-          <a href="https://scholar.google.com/citations?user=3NgcfZIAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar big-icon"></i></a>
-          <a href="https://www.linkedin.com/in/uyangaturmunkh" target="_blank"><i class="fa fa-linkedin big-icon"></i></a>
-  </span>
+          <span class="name-icons">
+            <a href="https://scholar.google.com/citations?user=3NgcfZIAAAAJ&hl=en" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar big-icon"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/uyangaturmunkh" target="_blank" rel="noopener">
+              <i class="fa fa-linkedin big-icon"></i>
+            </a>
+          </span>
+        </div>
       </div>
-      </div>
+
 
       <!-- RIGHT COLUMN: biography text -->
       <div class="col-xs-12 col-md-6 col-md-offset-1">
