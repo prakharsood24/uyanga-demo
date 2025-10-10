@@ -138,23 +138,77 @@ public economics, and learning and development. Complete <a href="{{ site.baseur
 
 
 <!-- === ONGOING PROJECTS === -->
+<!-- === ONGOING PROJECTS === -->
 <section id="projects" class="home-section">
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
         <h1>Ongoing Projects</h1>
-        <ul style="list-style:none; padding-left:0;">
+
+        <ul class="og-list" style="list-style:none;padding-left:0;margin:0;">
           {% for w in site.data.ongoing %}
-          <li style="margin-bottom:15px;">
-            <strong>{{ w.title }}</strong>{% if w.note %} · <span style="color:#666;">{{ w.note }}</span>{% endif %}<br>
-            {% if w.link %}<a href="{{ w.link }}" target="_blank">Project URL</a>{% endif %}
+          <li class="og-item">
+            <!-- Meta (authors + date) -->
+            {% if w.authors or w.date %}
+              <div class="og-meta">
+                {% if w.authors %}{{ w.authors }}{% endif %}
+                {% if w.date %}{% if w.authors %}, {% endif %}{{ w.date }}{% endif %}
+              </div>
+            {% endif %}
+
+            <!-- Title -->
+            <h3 class="og-title">{{ w.title }}</h3>
+
+            <!-- Summary or note (fallback) -->
+            {% if w.summary %}
+              <p class="og-summary">{{ w.summary }}</p>
+            {% elsif w.note %}
+              <p class="og-summary">{{ w.note }}</p>
+            {% endif %}
+
+            <!-- Actions: PDF + custom links + fallback single link -->
+            <div class="og-actions">
+              {% if w.pdf %}
+                <a class="btn-linkchip" href="{{ w.pdf | relative_url }}" target="_blank" rel="noopener">
+                  <i class="fa fa-file-pdf-o"></i> PDF
+                </a>
+              {% endif %}
+
+              {% if w.links %}
+                {% for l in w.links %}
+                  {% assign href = l.url %}
+                  {% if href contains '://' %}
+                    {% assign final_href = href %}
+                  {% else %}
+                    {% assign final_href = href | relative_url %}
+                  {% endif %}
+                  <a class="btn-linkchip" href="{{ final_href }}" target="_blank" rel="noopener">
+                    {% if l.icon and l.icon contains 'ai' %}
+                      <i class="{{ l.icon }}"></i>
+                    {% elsif l.icon %}
+                      <i class="fa {{ l.icon }}"></i>
+                    {% endif %}
+                    {{ l.label }}
+                  </a>
+                {% endfor %}
+              {% endif %}
+
+              {% if w.link and (w.links == nil) and (w.pdf == nil) %}
+                <!-- Fallback single link from your current schema -->
+                <a class="btn-linkchip" href="{{ w.link }}" target="_blank" rel="noopener">
+                  <i class="fa fa-external-link"></i> Project URL
+                </a>
+              {% endif %}
+            </div>
           </li>
           {% endfor %}
         </ul>
+
       </div>
     </div>
   </div>
 </section>
+
 
 <!-- === CONTACT === -->
 <section id="contact" class="home-section">
