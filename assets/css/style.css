@@ -1,14 +1,13 @@
-html {
-  font-size: 150%;
-}
-
+/* Global scaling — affects everything except the navbar */
 body {
   padding-top: 70px;
   font-family: "Roboto", sans-serif;
   color: #333;
   line-height: 1.65;
+  font-size: 21px; /* 15px × 1.4 = 21px — this is your new base font size */
 }
 
+/* Headings (unchanged for structure balance) */
 h1, h2, h3, h4 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -31,11 +30,13 @@ h3 {
   margin-bottom: 8px;
 }
 
+/* Paragraphs — increased proportionally */
 p {
-  font-size: 15px;
-  margin-bottom: 12px;
+  font-size: 21px; /* was 15px */
+  margin-bottom: 18px;
 }
 
+/* Links (outside navbar) */
 a {
   color: #0070cc;
   text-decoration: none;
@@ -44,6 +45,14 @@ a:hover {
   text-decoration: underline;
 }
 
+/* === NAVBAR (completely untouched) === */
+.navbar,
+.navbar * {
+  font-size: inherit;
+  line-height: normal;
+}
+
+/* Navbar brand stays same */
 .navbar-brand {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -51,32 +60,38 @@ a:hover {
   font-size: 18px;
 }
 
+/* Section spacing */
 .home-section {
   padding: 60px 0;
   border-bottom: 1px solid #eee;
 }
 
+/* Circular images */
 .img-circle {
   border-radius: 50%;
 }
 
+/* Icons */
 .big-icon {
-  font-size: 24px;
+  font-size: 34px; /* slightly bigger for balance */
   color: #0070cc;
 }
 
+/* Inline lists */
 .list-inline > li {
   display: inline-block;
 }
 
+/* Footer */
 .site-footer {
   padding: 25px 0;
   color: #777;
   text-align: center;
-  font-size: 14px;
+  font-size: 20px; /* was 14px */
   margin-top: 60px;
 }
 
+/* Mobile responsiveness */
 @media (max-width: 768px) {
   .home-section {
     text-align: center;
@@ -86,6 +101,7 @@ a:hover {
   }
 }
 
+/* Font Awesome lists */
 .fa-ul {
   list-style: none;
   margin: 0;
@@ -100,45 +116,18 @@ a:hover {
 }
 
 .fa-ul li {
-  margin-bottom: 12px;
+  margin-bottom: 18px; /* slightly increased for readability */
 }
 
+/* Education section */
 .course {
   margin: 0;
   font-weight: 600;
+  font-size: 21px; /* was 15px */
 }
 
 .institution {
   margin: 0;
   color: #666;
-  font-size: 15px;
+  font-size: 20px; /* was 15px */
 }
-
-/* === Increase overall text size by 50%, exclude navbar === */
-
-body,
-p,
-h1, h2, h3, h4,
-.course,
-.institution,
-.site-footer,
-.fa-ul,
-ul,
-li {
-  font-size: 1.5em;
-  line-height: 1.7;
-}
-
-/* Keep navbar fonts unchanged */
-.navbar,
-.navbar * {
-  font-size: inherit !important;
-  line-height: normal !important;
-}
-
-/* Optional fine-tuning for paragraph readability */
-p {
-  max-width: 850px;
-  margin-bottom: 1.2em;
-}
-
