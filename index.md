@@ -9,7 +9,7 @@ title: Uyanga Turmunkh
     <div class="row">
       <!-- LEFT COLUMN: photo & info -->
       <div class="col-xs-12 col-md-5 text-center">
-        <img src="{{ site.baseurl }}/assets/turmunkh_bright.png" alt="Uyanga Turmunkh" class="img-circle img-responsive center-block" style="width:200px; height:200px; object-fit:cover; margin-bottom:20px;">
+        <img src="{{ site.baseurl }}/assets/turmunkh_bright.png" alt="Uyanga Turmunkh" class="img-circle img-responsive center-block" style="width:200px; height:200px; object-fit:fill; margin-bottom:20px;">
         <h1>Uyanga Turmunkh</h1>
         <h2>Associate Professor</h2>
         <p>
