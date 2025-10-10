@@ -183,6 +183,31 @@ public economics, and learning and development. Complete <a href="{{ site.baseur
   </div>
 </section>
 
+<!-- === Teaching === -->
+<section id="teaching" class="home-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Teaching</h1>
+
+        <ul class="teaching-list">
+          <li>
+            <strong>Behavioral Economics & Managerial Decisions</strong><br>
+            <span class="teaching-note">(Program: Master, Grande Ecole), Fall 2025</span>
+          </li>
+          <li>
+            <strong>Applied Economics</strong><br>
+            <span class="teaching-note">(Program: Bachelor in International Business), Spring 2026</span>
+          </li>
+          <li>
+            <strong>Environmental Problems and Human Behavior</strong><br>
+            <span class="teaching-note">(Program: Master in Management for Sustainability), Spring 2026</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- === CONTACT === -->
 <section id="contact" class="home-section">
