@@ -7,13 +7,13 @@
   venue: "Management Science"
   year: 2019
   authors: "Uyanga Turmunkh, Martijn J. van den Assem, Dennie van Dolder"
-  thumb: "/assets/pubs/malleable.jpg"   # optional
+  thumb: "/assets/management-science.png"   # optional
   links:
     - label: "Summary"
-      url: "https://example.com/summary"
+      url: "#"
       icon: "fa-file-text-o"            # Font Awesome
     - label: "Journal"
-      url: "https://pubs.informs.org/..."
+      url: "https://linkinghub.elsevier.com/retrieve/pii/S0014292121002750"
       icon: "fa-external-link"
     - label: "PDF"
       url: "https://example.com/paper.pdf"
