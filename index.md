@@ -79,20 +79,47 @@ public economics, and learning and development. Complete <a href="{{ site.baseur
     <div class="row">
       <div class="col-xs-12">
         <h1>Publications</h1>
-        <ul style="list-style:none; padding-left:0;">
-          {% for p in site.data.publications %}
-          <li style="margin-bottom:15px;">
-            <strong>{{ p.title }}</strong><br>
-            <span style="color:#666;">{{ p.authors }} · {{ p.venue }}</span><br>
-            {% if p.pub_link %}<a href="{{ p.pub_link }}" target="_blank">Published version</a>{% endif %}
-            {% if p.data_link %} · <a href="{{ p.data_link }}" target="_blank">Data & files</a>{% endif %}
+
+        <ul class="pub-list">
+        {% for p in site.data.publications %}
+          <li class="pub-item row">
+            <div class="col-sm-9">
+              <h3 class="pub-title">{{ p.title }}</h3>
+              <div class="pub-venue">
+                {% if p.venue_link %}<a href="{{ p.venue_link }}" target="_blank" rel="noopener">{{ p.venue }}</a>{% else %}{{ p.venue }}{% endif %}{% if p.year %}, {{ p.year }}.{% endif %}
+              </div>
+              <div class="pub-authors">{{ p.authors }}</div>
+
+              {% if p.links %}
+              <div class="pub-actions">
+                {% for l in p.links %}
+                  <a class="btn-linkchip" href="{{ l.url }}" target="_blank" rel="noopener">
+                    {% if l.icon contains 'ai' %}
+                      <i class="{{ l.icon }}"></i>
+                    {% else %}
+                      <i class="fa {{ l.icon }}"></i>
+                    {% endif %}
+                    {{ l.label }}
+                  </a>
+                {% endfor %}
+              </div>
+              {% endif %}
+            </div>
+
+            <div class="col-sm-3 hidden-xs">
+              {% if p.thumb %}
+                <img src="{{ p.thumb }}" class="pub-thumb img-responsive" alt="Cover for {{ p.title }}">
+              {% endif %}
+            </div>
           </li>
-          {% endfor %}
+        {% endfor %}
         </ul>
+
       </div>
     </div>
   </div>
 </section>
+
 
 <!-- === ONGOING PROJECTS === -->
 <section id="projects" class="home-section">
