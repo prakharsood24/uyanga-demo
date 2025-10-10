@@ -38,6 +38,12 @@ public economics, and learning and development. Complete <a href="{{ site.baseur
         </p>
 
       </div>
+
+      <!--<div class="col-xs-12 col-md-6 col-md-offset-1">
+        <h1>News</h1>
+        <p>Insert News Here</p>
+
+      </div>-->
     </div>
   </div>
 </section>
