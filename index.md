@@ -11,7 +11,7 @@ title: Uyanga Turmunkh
       <div class="col-xs-12 col-md-5 text-center">
                <img src="{{ '/assets/turmunkh_bright.png' | relative_url }}"
              alt="Uyanga Turmunkh"
-             class="portrait-img">
+             class="img-circle img-responsive center-block">
 
         <div class="name-row">
           <h1 class="profile-name">Uyanga Turmunkh</h1>
