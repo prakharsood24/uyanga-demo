@@ -101,9 +101,9 @@ public economics, and learning and development. Complete <a href="{{ site.baseur
                 {% for l in p.links %}
                   {% assign href = l.url %}
                   {% if href contains '://' %}
-                    {% assign final_href = href %}         {# external link, leave as-is #}
+                    {% assign final_href = href %}      
                   {% else %}
-                    {% assign final_href = href | relative_url %}  {# internal, make repo-agnostic #}
+                    {% assign final_href = href | relative_url %} 
                   {% endif %}
                   <a class="btn-linkchip" href="{{ final_href }}" target="_blank" rel="noopener">
                     {% if l.icon and l.icon contains 'ai' %}
