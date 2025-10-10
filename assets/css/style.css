@@ -66,8 +66,13 @@ a:hover {
 
 /* Circular images */
 .img-circle {
-  border-radius: 50%;
-}
+  width: 240px;            /* tweak this if you want it larger/smaller */
+  height: 240px;           /* must be equal for a perfect circle */
+  border-radius: 50%;      /* makes it circular */
+  object-fit: cover;       /* keeps proportions and fills the frame */
+  object-position: top;    /* adjusts framing slightly up so top of head isn’t cut */
+  display: block;
+  margin: 0 auto 16px;     /* centers it */}
 
 /* Icons */
 .big-icon {
