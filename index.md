@@ -138,7 +138,6 @@ public economics, and learning and development. Complete <a href="{{ site.baseur
 
 
 <!-- === ONGOING PROJECTS === -->
-<!-- === ONGOING PROJECTS === -->
 <section id="projects" class="home-section">
   <div class="container">
     <div class="row">
@@ -150,10 +149,16 @@ public economics, and learning and development. Complete <a href="{{ site.baseur
           <li class="og-item">
             <!-- Meta (authors + date) -->
             {% if w.authors or w.date %}
-              <div class="og-meta">
-                {% if w.authors %}{{ w.authors }}{% endif %}
-                {% if w.date %}{% if w.authors %}, {% endif %}{{ w.date }}{% endif %}
-              </div>
+            
+<div class="og-meta">
+  {% if w.authors %}
+    <div class="og-authors">{{ w.authors }}</div>
+  {% endif %}
+  {% if w.date %}
+    <div class="og-date">{{ w.date }}</div>
+  {% endif %}
+</div>
+
             {% endif %}
 
             <!-- Title -->
