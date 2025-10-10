@@ -7,7 +7,7 @@
   venue: "Management Science"
   year: 2019
   authors: "Uyanga Turmunkh, Martijn J. van den Assem, Dennie van Dolder"
-  thumb: "/uyanga-demo/assets/management-science.png"   # optional
+  thumb: "management-science.png"   # optional
   links:
     - label: "Summary"
       url: "#"
