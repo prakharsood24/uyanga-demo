@@ -9,18 +9,15 @@ title: Uyanga Turmunkh
     <div class="row">
       <!-- LEFT COLUMN: photo & info -->
       <div class="col-xs-12 col-md-5 text-center">
-        <img src="{{ site.baseurl }}/assets/turmunkh_bright.png" alt="Uyanga Turmunkh" class="img-circle img-responsive center-block" style="width:200px; height:200px; object-fit:fill; margin-bottom:20px;">
-        <h1>Uyanga Turmunkh</h1>
-        <h2>Associate Professor</h2>
+        <img src="{{ site.baseurl }}/assets/turmunkh_bright.png" alt="Uyanga Turmunkh" class="img-circle img-responsive center-block">
+        <div class="name-row">
+          <h1 class="profile-name">Uyanga Turmunkh</h1>
         <p>
-          <a href="[https://www.ieseg.fr/en/faculty/research-department/economics/](https://www.ieseg.fr/en/faculty-and-research/departments/economics-and-quantitative-methods/)" target="_blank">Department of Economics and Quantitative Methods</a><br>
-          IESEG School of Management, Lille, France
-        </p>
-
-        <ul class="list-inline" style="margin-top:10px;">
-          <li><a href="https://scholar.google.com/citations?user=3NgcfZIAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar big-icon"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/uyangaturmunkh" target="_blank"><i class="fa fa-linkedin big-icon"></i></a></li>
-        </ul>
+  <span class="name-icons">
+          <a href="https://scholar.google.com/citations?user=3NgcfZIAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar big-icon"></i></a>
+          <a href="https://www.linkedin.com/in/uyangaturmunkh" target="_blank"><i class="fa fa-linkedin big-icon"></i></a>
+  </span>
+      </div>
       </div>
 
       <!-- RIGHT COLUMN: biography text -->
