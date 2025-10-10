@@ -85,18 +85,30 @@ public economics, and learning and development. Complete <a href="{{ site.baseur
           <li class="pub-item row">
             <div class="col-sm-9">
               <h3 class="pub-title">{{ p.title }}</h3>
+
               <div class="pub-venue">
-                {% if p.venue_link %}<a href="{{ p.venue_link }}" target="_blank" rel="noopener">{{ p.venue }}</a>{% else %}{{ p.venue }}{% endif %}{% if p.year %}, {{ p.year }}.{% endif %}
+                {% if p.venue_link %}
+                  <a href="{{ p.venue_link }}" target="_blank" rel="noopener">{{ p.venue }}</a>
+                {% else %}
+                  {{ p.venue }}
+                {% endif %}{% if p.year %}, {{ p.year }}.{% endif %}
               </div>
+
               <div class="pub-authors">{{ p.authors }}</div>
 
               {% if p.links %}
               <div class="pub-actions">
                 {% for l in p.links %}
-                  <a class="btn-linkchip" href="{{ l.url }}" target="_blank" rel="noopener">
-                    {% if l.icon contains 'ai' %}
+                  {% assign href = l.url %}
+                  {% if href contains '://' %}
+                    {% assign final_href = href %}         {# external link, leave as-is #}
+                  {% else %}
+                    {% assign final_href = href | relative_url %}  {# internal, make repo-agnostic #}
+                  {% endif %}
+                  <a class="btn-linkchip" href="{{ final_href }}" target="_blank" rel="noopener">
+                    {% if l.icon and l.icon contains 'ai' %}
                       <i class="{{ l.icon }}"></i>
-                    {% else %}
+                    {% elsif l.icon %}
                       <i class="fa {{ l.icon }}"></i>
                     {% endif %}
                     {{ l.label }}
@@ -108,7 +120,10 @@ public economics, and learning and development. Complete <a href="{{ site.baseur
 
             <div class="col-sm-3 hidden-xs">
               {% if p.thumb %}
-                <img src="{{ p.thumb }}" class="pub-thumb img-responsive" alt="Cover for {{ p.title }}">
+                <img
+                  src="{{ '/assets/' | append: p.thumb | relative_url }}"
+                  class="pub-thumb img-responsive"
+                  alt="Cover for {{ p.title }}">
               {% endif %}
             </div>
           </li>
@@ -119,6 +134,7 @@ public economics, and learning and development. Complete <a href="{{ site.baseur
     </div>
   </div>
 </section>
+
 
 
 <!-- === ONGOING PROJECTS === -->
