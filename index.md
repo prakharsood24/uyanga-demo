@@ -56,9 +56,10 @@ public economics, and learning and development. Complete <a href="{{ site.baseur
 <section id="publications" class="home-section">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-md-3 col-xs-12">
         <h1>Publications</h1>
-
+      </div>
+      <div class="col-md-9 col-xs-12">
         <ul class="pub-list">
         {% for p in site.data.publications %}
           <li class="pub-item row">
@@ -120,8 +121,10 @@ public economics, and learning and development. Complete <a href="{{ site.baseur
 <section id="projects" class="home-section">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-md-3 col-xs-12">
         <h1>Ongoing Projects</h1>
+      </div>
+      <div class="col-md-9 col-xs-12">
 
         <ul class="og-list" style="list-style:none;padding-left:0;margin:0;">
           {% for w in site.data.ongoing %}
@@ -197,8 +200,11 @@ public economics, and learning and development. Complete <a href="{{ site.baseur
 <section id="teaching" class="home-section">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-md-3 col-xs-12">
         <h1>Teaching</h1>
+      </div>
+
+      <div class="col-md-9 col-xs-12">
 
         <ul class="teaching-list">
           <li>
@@ -223,10 +229,10 @@ public economics, and learning and development. Complete <a href="{{ site.baseur
 <section id="contact" class="home-section">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-md-12">
+      <div class="col-md-3 col-xs-12">
         <h1>Contact</h1>
       </div>
-      <div class="col-xs-12 col-md-12">
+      <div class="col-xs-12 col-md-9">
         <ul class="fa-ul" style="margin-left:0;">
           <li><i class="fa-li fa fa-envelope"></i> <a href="mailto:u.turmunkh@ieseg.fr">u.turmunkh@ieseg.fr</a></li>
           <li><i class="fa-li fa fa-map-marker"></i> IESEG School of Management, Lille, France</li>
