@@ -1,13 +1,8 @@
-#- title: "“Nudging student participation in online evaluations of teaching: Evidence from a field experiment”"
-# authors: "with Susanne Neckermann, Dennie van Dolder, and Tong V. Wang"
-#  venue: "European Economic Review, 2022"
-#  pub_link: "https://linkinghub.elsevier.com/retrieve/pii/S0014292121002750"
-# data_link: "#"
-- title: "Malleable Lies: Communication and Cooperation in a High Stakes TV Game Show"
-  venue: "Management Science"
+- title: "Malleable Lies: Communication and Cooperation in a High Stakes TV Game Show" #Insert Title Here
+  venue: "Management Science" #Insert Journal Name Here
   year: 2019
-  authors: "Uyanga Turmunkh, Martijn J. van den Assem, Dennie van Dolder"
-  thumb: "management_science.png"
+  authors: "Uyanga Turmunkh, Martijn J. van den Assem, Dennie van Dolder" #Insert Author Names Here
+  thumb: "management_science.png" #Upload images inside the 'assets' folder and just put the name of the image here
   links:
     - label: "Summary"
       url: "#"
